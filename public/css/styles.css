@@ -1,0 +1,206 @@
+/***** GENERAL *****/
+body{
+
+  text-align: center;
+  margin: auto;
+  background: #F2FDFF;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1{
+
+  font-weight: 800;
+  color: #00B7DF;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+
+
+
+/***** TITLE *****/
+#title{
+
+  font-size: 3rem;
+  margin:  5%;
+}
+
+
+
+
+
+/***** NAVIGATION *****/
+#navigation{
+
+  font-size: 1.5rem;
+  margin: 5%;
+}
+
+.navbar{
+
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item{
+
+  margin-right: 50px;
+  margin-left: 50px
+}
+
+
+
+
+/***** RANDOM PLAY GAME SELECTIONS *****/
+#game-selection{
+
+}
+
+.vault-row{
+
+  margin: 5% 10% 5%;
+}
+
+.vault-img{
+
+  width: 60%;
+  margin-bottom: 3%;
+}
+
+.vault-img:hover{
+
+  opacity: 75%;
+}
+
+
+
+
+
+/***** TRIVIA SECTION *****/
+#trivia{
+
+  width: 480px;
+  height: 700px;
+  background-color: #3a3e45;
+  color: white;
+  border: solid;
+  border-radius: 4%;
+  margin: auto;
+}
+
+/***** CATEGORY SCREEN *****/
+#category-screen{
+
+  position: relative;
+}
+
+/***** TRIVIA SCREEN *****/
+#question-screen{
+
+  position: relative;
+}
+
+.timer-component{
+
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  height: 10px;
+  width: 300px;
+  pointer-events: none;
+}
+
+.timer-back{
+
+  background-color: gray;
+  z-index: 0;
+}
+
+.timer-front{
+
+  background-color: green;
+  z-index: 1;
+}
+
+.question{
+
+  padding: 15%;
+  margin-bottom: 50px;
+}
+
+.category{
+
+  font-size: 0.85rem;
+  margin-bottom: 50px;
+}
+
+
+.choice-btn{
+
+  display: block;
+  height: 50px;
+  width: 300px;
+  margin: 20px auto 10px;
+  background-color: #73777B;
+  box-shadow: 0 0 8px grey;
+
+  background-image: linear-gradient(green, green);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.8s, color 0.8s;
+}
+
+.choice-btn:hover{
+
+  background-size: 100% 100%;
+}
+
+
+
+
+
+/***** RESULT SCREEN *****/
+.wrong-answer{
+
+  background-color: red;
+}
+
+.perfect-answer{
+
+}
+
+.choices{
+
+  display: block;
+}
+
+.score{
+
+  margin: 30px;
+}
+
+.score-img{
+
+  width: 75%;
+}
+
+.continue-btn{
+
+  height: 100px;
+  width: 400px;
+  background-color: #73777B;
+  margin: 50px auto;
+}
+
+#footer{
+
+  padding: 5%;
+}
