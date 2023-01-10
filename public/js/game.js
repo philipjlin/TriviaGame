@@ -339,8 +339,6 @@ function playSound( result ){
       perfect.play();
       break;
     case "Great":
-      great.play();
-      break;
     case "Good":
       great.play();
       break;
