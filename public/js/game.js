@@ -1,3 +1,5 @@
+
+
 //Sounds
 let open_vault = new Audio("sounds/open_vault.wav");
 let perfect = new Audio("sounds/perfect_answer.wav");
