@@ -41,11 +41,8 @@ let divClone = $("#trivia").clone();
 
 
 //Initial game page state
-$("#game-selection").hide();
 $("#trivia").hide();
-$("#result-screen").hide();
-$("#question-screen").hide();
-$(".choices").hide();
+
 
 
 
