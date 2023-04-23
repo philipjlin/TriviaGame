@@ -1,4 +1,4 @@
-# Blog
+# TriviaGame
 
 
 ## Repository
